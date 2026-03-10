@@ -9,8 +9,11 @@ function onInit()
 end
 
 function onRender()
-  render.drawFilledRect(8, 8, 90, 32, 0, 0, 0, 1)
-  render.drawText("MCSkripters", 10, 10, 1, 1, 1, 1)
+  render.drawFilledTriangle(200, 0, 0, 200, 200, 200, 0xFF00FFFF)
+  
+  render.drawText("MCSkripters", 60, 10, 10, 0xFFFFFFFF)
+  
+  render.drawCircle(500, 500, 150, 20, 0xFF00FFFF)
 end
 
 function onUpdate()

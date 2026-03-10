@@ -6,7 +6,7 @@ Currently, it mainly supports basic rendering features.
 
 ## TODO
 
-- [ ] Add more rendering functions
+- [x] Add more rendering functions
 - [ ] Bind JNI functions
 - [ ] Implement Java method hooking
 - [ ] Add menu customization (sliders, checkboxes, etc.)
